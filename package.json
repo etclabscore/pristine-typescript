@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "build/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "tsc",
     "lint": "tslint --fix -p .",
