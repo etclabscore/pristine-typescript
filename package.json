@@ -8,7 +8,7 @@
   },
   "scripts": {
     "build": "tsc && typedoc --out docs &&  touch docs/.nojekyll ",
-    "lint": "tslint --fix -p .",
+    "lint": "eslint -c .eslintrc.js --ext .ts",
     "test": "npm run lint && jest --coverage"
   },
   "author": "",
@@ -16,9 +16,12 @@
   "devDependencies": {
     "@types/jest": "^24.0.13",
     "@types/node": "^12.12.17",
+    "@typescript-eslint/eslint-plugin": "^4.5.0",
+    "@typescript-eslint/parser": "^4.5.0",
+    "eslint": "^7.11.0",
     "jest": "^24.8.0",
     "ts-jest": "^24.1.0",
-    "tslint": "^5.17.0",
+    "tslint": "^5.18.0",
     "typedoc": "^0.15.5",
     "typescript": "^3.7.3"
   }
