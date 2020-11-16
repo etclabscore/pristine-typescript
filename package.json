@@ -23,6 +23,6 @@
     "ts-jest": "^26.4.1",
     "tslint": "^6.1.3",
     "typedoc": "^0.19.2",
-    "typescript": "^4.0.0"
+    "typescript": "^4.0.5"
   }
 }
